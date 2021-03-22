@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sonata/MyProjects/Spovm/laba1/main.c
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+sys/types.h
+-
+sys/wait.h
+-
+time.h
+-
+pharmacy.h
+/home/sonata/MyProjects/Spovm/laba1/pharmacy.h
+
+/home/sonata/MyProjects/Spovm/laba1/pharmacy.c
+pharmacy.h
+/home/sonata/MyProjects/Spovm/laba1/pharmacy.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+/home/sonata/MyProjects/Spovm/laba1/pharmacy.h
+
